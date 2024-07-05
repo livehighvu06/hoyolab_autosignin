@@ -3,7 +3,7 @@ async function signInNotify(totalDays, todayAward, signInInfo) {
   const url = "https://notify-api.line.me/api/notify";
   const headers = {
     "Content-Type": "application/x-www-form-urlencoded",
-    Authorization: "Bearer 用戶",
+    Authorization: "Bearer 你的Token",
   };
   const raw = {
     message: `${"\n"}${
@@ -22,5 +22,5 @@ async function signInNotify(totalDays, todayAward, signInInfo) {
     payload: raw,
     redirect: "follow",
   };
-  await makeRequest(url, requestOptions);
+  await sendRequest(url, requestOptions);
 }
