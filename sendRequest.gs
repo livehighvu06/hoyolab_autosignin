@@ -1,4 +1,4 @@
-async function makeRequest(url, requestOptions) {
+async function sendRequest(url, requestOptions) {
   try {
     const response = await UrlFetchApp.fetch(url, requestOptions);
     return JSON.parse(response.getContentText());
