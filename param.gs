@@ -15,7 +15,7 @@ const games = {
   zzz: {
     awardList:
       "https://sg-act-nap-api.hoyolab.com/event/luna/zzz/os/home?lang=zh-tw&act_id=你的ID",
-    baseURL: "https://sg-public-api.hoyolab.com/event/luna/os/sign",
+    baseURL: "https://sg-act-nap-api.hoyolab.com/event/luna/zzz/os/sign",
     actId: "你的ID",
     userInfo:
       "https://sg-act-nap-api.hoyolab.com/event/luna/zzz/os/info?lang=zh-tw&act_id=你的ID",
